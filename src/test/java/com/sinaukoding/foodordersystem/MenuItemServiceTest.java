@@ -44,6 +44,12 @@ class MenuItemServiceTest {
         var mappedEntity = new MenuItem();
         when(menuItemMapper.requestToEntity(request)).thenReturn(mappedEntity);
 
+        when(menuItemRepository.save(any(MenuItem.class))).thenAnswer(inv -> {
+            MenuItem e = inv.getArgument(0);
+            e.setId(java.util.UUID.randomUUID().toString());
+            return e;
+        });
+
         // when
         menuItemService.add(request);
 

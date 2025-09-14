@@ -8473,3 +8473,12 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "id_menu" does not e
 2025-09-14_20:17:36.471 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-09-14_20:17:36.475 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-09-14_20:17:36.491 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-14_20:38:07.810 [main] INFO  c.s.f.s.m.impl.MenuItemServiceImpl - MenuItem Bakso Goreng berhasil ditambahkan
+2025-09-14_20:38:07.817 [main] ERROR c.s.f.s.m.impl.MenuItemServiceImpl - Tambah data menu item gagal: Cannot invoke "com.sinaukoding.foodordersystem.entity.master.MenuItem.getId()" because "saved" is null
+2025-09-14_20:49:50.992 [main] INFO  c.s.f.s.m.impl.MenuItemServiceImpl - MenuItem Bakso Goreng berhasil ditambahkan
+2025-09-14_20:54:47.306 [main] INFO  c.s.f.s.m.impl.MenuItemServiceImpl - MenuItem Bakso Goreng berhasil ditambahkan
+2025-09-14_20:58:36.917 [main] INFO  c.s.f.s.m.impl.MenuItemServiceImpl - MenuItem Bakso Goreng berhasil ditambahkan
+2025-09-14_20:58:36.927 [main] ERROR c.s.f.s.m.impl.MenuItemServiceImpl - Tambah data menu item gagal: Cannot invoke "com.sinaukoding.foodordersystem.entity.master.MenuItem.getId()" because "saved" is null
+2025-09-14_21:17:36.082 [main] INFO  c.s.f.s.m.impl.MenuItemServiceImpl - MenuItem Bakso Goreng berhasil ditambahkan
+2025-09-14_21:17:36.094 [main] ERROR c.s.f.s.m.impl.MenuItemServiceImpl - Tambah data menu item gagal: Cannot invoke "com.sinaukoding.foodordersystem.entity.master.MenuItem.getId()" because "saved" is null
+2025-09-14_21:23:39.096 [main] INFO  c.s.f.s.m.impl.MenuItemServiceImpl - MenuItem Bakso Goreng berhasil ditambahkan

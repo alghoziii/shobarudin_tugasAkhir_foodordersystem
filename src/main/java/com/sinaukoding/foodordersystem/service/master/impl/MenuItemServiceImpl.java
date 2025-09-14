@@ -49,8 +49,6 @@ public class MenuItemServiceImpl implements MenuItemService {
             var entity = menuItemMapper.requestToEntity(request);
             var saved = menuItemRepository.save(entity);
 
-            menuItemRepository.save(entity);
-
             log.info("MenuItem {} berhasil ditambahkan", request.nama());
             log.trace("Tambah data menu item selesai");
 

@@ -9,5 +9,5 @@ public record OrderItemRequestRecord(
         String menuName,
         @NotNull(message = "Qty tidak boleh kosong")
         @Min(value = 1, message = "Qty minimal 1")
-        Integer qty
-) {}
+        Integer qty,
+        double v) {}

@@ -7142,3 +7142,6 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "id_menu" does not e
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
 	... 120 common frames omitted
 2025-09-14_20:17:33.671 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-14_20:38:07.817 [main] ERROR c.s.f.s.m.impl.MenuItemServiceImpl - Tambah data menu item gagal: Cannot invoke "com.sinaukoding.foodordersystem.entity.master.MenuItem.getId()" because "saved" is null
+2025-09-14_20:58:36.927 [main] ERROR c.s.f.s.m.impl.MenuItemServiceImpl - Tambah data menu item gagal: Cannot invoke "com.sinaukoding.foodordersystem.entity.master.MenuItem.getId()" because "saved" is null
+2025-09-14_21:17:36.094 [main] ERROR c.s.f.s.m.impl.MenuItemServiceImpl - Tambah data menu item gagal: Cannot invoke "com.sinaukoding.foodordersystem.entity.master.MenuItem.getId()" because "saved" is null
