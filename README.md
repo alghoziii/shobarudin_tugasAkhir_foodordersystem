@@ -1,1 +1,1 @@
-![Flowchart Food Order System](flowchart foodordersystem.png)
+![Flowchart System](./food-order-system-flowchart.png)
